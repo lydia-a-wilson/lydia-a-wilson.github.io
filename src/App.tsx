@@ -7,6 +7,8 @@ function App() {
     { id: 'achievements', label: 'Achievements' },
     { id: 'strategy', label: 'Strategy' },
     { id: 'samples', label: 'Work Samples' },
+    { id: 'territory', label: 'Territory' },
+    { id: 'traits', label: 'Traits' },
   ];
 
   return (
