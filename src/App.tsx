@@ -77,6 +77,7 @@ function App() {
         <div className="container">
           <h2>Key Achievements</h2>
           <ul style={{ listStylePosition: 'inside', lineHeight: '2', color: 'var(--text-muted)' }}>
+            <li>Awarded the <strong>Bronze Star Certificate</strong> for success with the Aclaris Therapeutics ADMIRATION Trial and 1st patient randomized (March 2026). <a href="/lydia-award.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>View Award</a></li>
             <li>Consistently exceeded quarterly sales quotas by an average of 15% over the past two years.</li>
             <li>Successfully opened 12 new major accounts in a previously underpenetrated territory.</li>
             <li>Developed a new outreach sequence that increased meeting conversion rates by 22%.</li>
