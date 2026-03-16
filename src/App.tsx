@@ -5,9 +5,7 @@ function App() {
     { id: 'summary', label: 'Summary' },
     { id: 'skills', label: 'Skills' },
     { id: 'achievements', label: 'Achievements' },
-    { id: 'strategy', label: 'Strategy' },
     { id: 'samples', label: 'Work Samples' },
-    { id: 'territory', label: 'Territory' },
     { id: 'traits', label: 'Traits' },
   ];
 
@@ -108,19 +106,6 @@ function App() {
         </div>
       </section>
 
-      {/* 5. Outreach Strategy Example */}
-      <section id="strategy">
-        <div className="container">
-          <h2>Outreach Strategy Example</h2>
-          <div className="card" style={{ marginTop: '1rem' }}>
-            <h3>The 3-Step Engagement Approach</h3>
-            <p><strong>Step 1: The Value-Add Introduction.</strong> Sharing a relevant industry insight or marketing asset (like a flyer) to capture attention without a direct pitch.</p>
-            <p><strong>Step 2: The Pain-Point Follow Up.</strong> Addressing a specific challenge the prospect likely faces, highlighting how our solution has helped similar organizations.</p>
-            <p><strong>Step 3: The Call to Action.</strong> A direct, low-friction request for a 10-minute discovery call, accompanied by a clear return on investment proposition.</p>
-          </div>
-        </div>
-      </section>
-
       {/* 6. Marketing Work Samples */}
       <section id="samples" className="bg-alt">
         <div className="container">
@@ -136,18 +121,6 @@ function App() {
               <img src="/BAFF453F-CD30-471E-BBC7-2EF13BA9AE49.jpg" alt="Marketing Asset" className="work-img" />
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* 7. Territory Strategy */}
-      <section id="territory">
-        <div className="container">
-          <h2>Territory Strategy</h2>
-          <p>
-            My approach to territory management involves a deep analysis of market potential, competitor presence, and current account health.
-            I segment the territory into A, B, and C tiers, allocating my time and resources proportionally to maximize impact. 
-            Regular quarterly business reviews (QBRs) are conducted to adapt the strategy based on real-time feedback and shifting market dynamics.
-          </p>
         </div>
       </section>
 
