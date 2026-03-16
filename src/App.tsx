@@ -76,12 +76,35 @@ function App() {
       <section id="achievements" className="bg-alt">
         <div className="container">
           <h2>Key Achievements</h2>
-          <ul style={{ listStylePosition: 'inside', lineHeight: '2', color: 'var(--text-muted)' }}>
-            <li>Awarded the <strong>Bronze Star Certificate</strong> for success with the Aclaris Therapeutics ADMIRATION Trial and 1st patient randomized (March 2026). <a href="/lydia-award.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>View Award</a></li>
-            <li>Consistently exceeded quarterly sales quotas by an average of 15% over the past two years.</li>
-            <li>Successfully opened 12 new major accounts in a previously underpenetrated territory.</li>
-            <li>Developed a new outreach sequence that increased meeting conversion rates by 22%.</li>
-          </ul>
+          <div className="grid">
+            <div className="card">
+              <h3>Bronze Star Certificate</h3>
+              <p>In March I recruited the most amount of patients for the Aclaris Therapeutics ADMIRATION Trial, resulting in an award towards my firm.</p>
+              <div style={{ marginTop: '1rem' }}>
+                <a href="/lydia-award.pdf" target="_blank" rel="noopener noreferrer">
+                  <img 
+                    src="/lydia-award-preview.jpg" 
+                    alt="Lydia Award Preview" 
+                    className="work-img" 
+                    style={{ cursor: 'pointer', transition: 'transform 0.2s' }} 
+                    onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'} 
+                    onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'} 
+                  />
+                </a>
+              </div>
+              <div style={{ marginTop: '0.5rem', textAlign: 'center' }}>
+                <a href="/lydia-award.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', fontWeight: 'bold' }}>View Full PDF</a>
+              </div>
+            </div>
+            <div className="card">
+              <h3>Sales Performance</h3>
+              <ul style={{ listStylePosition: 'inside', color: 'var(--text-muted)', marginTop: '0.5rem', lineHeight: '1.8' }}>
+                <li>Consistently exceeded quarterly sales quotas by an average of 15% over the past two years.</li>
+                <li>Successfully opened 12 new major accounts in a previously underpenetrated territory.</li>
+                <li>Developed a new outreach sequence that increased meeting conversion rates by 22%.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
